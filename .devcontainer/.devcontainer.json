@@ -1,0 +1,16 @@
+{
+    "name": "PreFigure-Codespaces",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "pip3 install -r /root/prefigure/requirements.txt && npm install --prefix=/root/prefigure/js",
+
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["samples"]
+        },
+        "vscode": {
+            "extensions": [
+                "vitaliymaz.vscode-svg-previewer"
+            ]
+        }
+    }
+}
