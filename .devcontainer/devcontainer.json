@@ -1,7 +1,7 @@
 {
     "name": "PreFigure-Codespaces",
     "dockerFile": "Dockerfile",
-    "postCreateCommand": "pip3 install -r /root/prefigure/requirements.txt && npm install --prefix=/root/prefigure/js && mv /root/prefigure/samples /workspaces/prefigure-codespace && mv /root/fonts ~/.fonts && fc-cache -f -v",
+    "postCreateCommand": "pip3 install -r /root/prefigure/requirements.txt && npm install --prefix=/root/prefigure/js && mv /root/prefigure/samples /workspaces/prefigure-codespace && mv /root/prefigure/fonts ~/.fonts && fc-cache -f -v",
 
     "customizations": {
         "codespaces": {
