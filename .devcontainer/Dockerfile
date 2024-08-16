@@ -17,5 +17,7 @@ RUN apt-get update && \
 #RUN rm -r src
 
 RUN cd /root && git clone https://github.com/davidaustinm/prefigure
-RUN mv /root/prefigure/samples .
+RUN mv /root/prefigure/samples /workspaces/prefigure-codespace
+RUN mv /root/prefigure/fonts ~/.fonts
+RUN fc-cache -f -v
 RUN echo 'alias pf="python3 /root/prefigure/prefigure/parse.py"' >> ~/.bashrc

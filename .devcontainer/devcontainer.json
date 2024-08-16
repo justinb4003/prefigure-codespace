@@ -5,7 +5,7 @@
 
     "customizations": {
         "codespaces": {
-            "openFiles": ["samples"]
+            "openFiles": ["samples/tangent.xml"]
         },
         "vscode": {
             "extensions": [
