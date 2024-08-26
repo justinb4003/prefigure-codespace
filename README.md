@@ -56,4 +56,4 @@ Here are some explorations that you could use to learn more.
 PreFigure is still very much a work in progress, and your feedback would be most helpful.
 
 
-David Austin, `david.austin.m@gmail.com`
+David Austin
