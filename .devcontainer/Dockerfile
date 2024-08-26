@@ -9,4 +9,4 @@ RUN apt-get update && \
     apt-get install -y python3-dev python3-louis python3-pip libcairo2-dev pkg-config npm nodejs librsvg2-bin && \
     apt-get clean
 
-#RUN pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple prefig
+RUN pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple prefig
