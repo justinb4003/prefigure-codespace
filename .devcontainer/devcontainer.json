@@ -1,7 +1,7 @@
 {
     "name": "PreFigure-Codespaces",
     "dockerFile": "Dockerfile",
-    "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh"
+    "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
 
     "customizations": {
         "codespaces": {
