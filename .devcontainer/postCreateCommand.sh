@@ -3,4 +3,5 @@
 prefig init
 prefig new
 prefig examples
-. .my_bashrc
+cat .my_bashrc >> ~/.bashrc
+. ~/.bashrc
