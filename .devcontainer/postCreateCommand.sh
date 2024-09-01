@@ -3,4 +3,4 @@
 prefig init
 prefig new
 prefig examples
-source .my_bashrc
+. .my_bashrc
