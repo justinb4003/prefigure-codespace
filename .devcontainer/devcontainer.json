@@ -1,7 +1,7 @@
 {
     "name": "PreFigure-Codespaces",
     "dockerFile": "Dockerfile",
-    "postCreateCommand": "prefig init && prefig examples && prefig new && mv .my_bashrc $HOME && cat .my_bashrc >> ~/.bashrc && source ~/.bashrc && mkdir source",
+    "postCreateCommand": "prefig init && prefig examples && prefig new && && cat .bashrc >> ~/.bashrc && . ~/.bashrc",
 
     "customizations": {
         "codespaces": {
