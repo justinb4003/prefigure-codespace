@@ -16,38 +16,51 @@ After a period of inactivity, your Codespace will be stopped.  But don't worry: 
 
 ## Using PreFigure
 
-Rather than reading documentation, many of us learn a new authoring system by modifying existing examples, a set of which is provided in the `examples` folder.  To compile PreFigure source into an SVG diagram, use
-```
-prefig build foo.xml
-```
-or
-```
-prefig build -f tactile foo.xml
-```
-to create a tactile diagram.  In particular, you could compile one of the example source files with
-```
-prefig build examples/tangent.xml
-```
-The resulting SVG diagram and annotations will appear in a directory called `output` inside the `examples` folder.  You may view the diagram by right-clicking on the output `tangent.svg` and selecting `Open Preview`.  If you change the PreFigure source and recompile, the preview will usually, but not reliably, update.
+1. Rather than reading documentation, many of us learn a new authoring system by modifying existing examples, a set of which is provided in the `examples` folder.  To compile PreFigure source into an SVG diagram, use
 
-Users could configure their working environment as shown in the image below.
+    ```
+    prefig build foo.xml
+    ```
 
-<img src="./codespace.png" width="700">
+    or
 
-To explore the diagram with annotations, use
-```
-prefig view tangent
-```
-This will open a new window in your browser and display the SVG diagram using the `diagcess` library.  You may click on the image and use arrow keys to explore the diagram with annotations.
+    ```
+    prefig build -f tactile foo.xml
+    ```
 
-Help is available with
-```
-prefig --help
-```
-or
-```
-prefig view --help
-```
+    to create a tactile diagram.  In particular, you could compile one of the example source files with
+
+    ```
+    prefig build examples/tangent.xml
+    ```
+
+2. The resulting SVG diagram and annotations will appear in a directory called `output` inside the `examples` folder.  You may view the diagram by right-clicking on the output `tangent.svg` and selecting `Open Preview`.  If you change the PreFigure source and recompile, the preview will usually, but not reliably, update.
+
+    Users could configure their working environment as shown in the image below.
+
+    <img src="./codespace.png" width="700">
+
+    To explore the diagram with annotations, use
+
+    ```
+    prefig view tangent
+    ```
+
+    This will open a new window in your browser and display the SVG diagram using the `diagcess` library.  You may click on the image and use arrow keys to explore the diagram with annotations.
+
+3. A folder `source` is provided as a convenient place for your own PreFigure source.
+
+4. Help is available with
+
+    ```
+    prefig --help
+    ```
+
+    and
+
+    ```
+    prefig view --help
+    ```
 
 ## Beginning steps
 
