@@ -1,4 +1,4 @@
-FROM python:3.10-bullsye
+FROM python:3.10-bullseye
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
