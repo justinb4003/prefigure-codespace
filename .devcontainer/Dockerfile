@@ -1,5 +1,5 @@
-#FROM python:3.11-bullseye
-FROM ubuntu:22.04
+FROM python:3.11-bullseye
+#FROM ubuntu:22.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
