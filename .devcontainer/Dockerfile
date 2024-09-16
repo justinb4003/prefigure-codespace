@@ -9,5 +9,5 @@ RUN apt-get update && \
     apt-get clean
 
 # Debian bookworm has a new enough pip we can skip this
-# RUN python3 -m pip install --upgrade pip
+RUN python3 -m pip install --upgrade pip
 RUN pip install prefig
